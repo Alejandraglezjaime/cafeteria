@@ -1,0 +1,124 @@
+/*el * resetea la pagina */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none; /*quita la linea de los enlaces*/
+    list-style: none; /*quita las viñetas*/
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: "Playpen Sans", cursive;
+    background: linear-gradient(#FEFEFE,#FEFEFE,#99e1dc, #0e737838);}
+
+.encabezado {
+    background-color: #DBF9FC; /* Color de fondo del encabezado */
+    text-align: center; /* Alineación del texto en el centro */
+    padding: 20px; /* Espaciado interno del encabezado */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.informacion-galeria{
+    padding: 1em 0;
+    background: #FFFFFF;
+    width: auto;
+    text-align: center;
+}
+
+.informacion-galeria h1{
+    font-size: 3em;
+    color: #378680;
+}
+
+/*SECCION DE LA PARTE DE IMAGENES PROXIMAMENTE*/
+.proximamente{
+    text-align: center;
+    padding: 2em;
+}
+
+.proximamente-letras{
+    padding: 1em 0;
+    background: #FFFFFF;
+    width: auto;
+    text-align: center;
+}
+
+.proximamente li{
+    display: inline-block;
+    text-align: center; 
+    width: auto;
+    vertical-align: top;
+    margin: 0 1.5%; /*Margen de 0 en vertical y 1.5% entre los elementos, margin es espacio externo */
+    padding: 30px 20px; /*esparciamiento, 30 px vertical y 20px laterales. Le da como un espacio de la info dentro de cada lista*/
+    box-sizing: border-box;
+    /*Para ahorrarme las tres líneas de codigo siguientes: 
+        border-color: #000000; /*Color del borde que esta alrededor de cada elemento de la lista
+        border-width: 2px; /* Tamaño del borde de cada elemento de la lista
+        border-style: solid; /*El estilo de la línea es una línea solida
+    ocupamos la siguiente línea: */ 
+    border: 2px solid #000000;
+    border-radius: 10px 25px 40px 50px ; /* Configuro en una sola línea el tamaño de todos los bordes */
+
+}
+
+.proximamente li img {
+    width: 350px; /* Define el ancho deseado para la imagen */
+    height: auto; /* Mantiene la proporción original de la imagen */
+}
+
+
+.proximamente li:hover{
+    border-color:blue; /*captura el movimmiento del mouse, si pasas el mouse encima*/
+}
+
+.proximamente li img:active{
+    border-color:aqua; /*captura el click del mouse */
+    width: 450px; /* Define el ancho deseado para la imagen */
+    height: auto;
+}
+
+/*IMAGENES DE LA GALERIA */
+
+
+.galeria {
+    text-align: center; /* Alineación del texto en el centro */
+    color: #DBF9FC;
+}
+
+.galeria ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    display: flex; /* Utiliza flexbox para alinear elementos en una fila */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+}
+
+.imggal img {
+    width: 250px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    margin-right: 10px; /* Añade espacio entre la imagen y el texto */
+   
+    object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor manteniendo la proporción */
+
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 5px #000000; 
+}
+
+
+
+.imggal img:hover{
+    opacity: 0.6;  /* opacity: 0.3; /*Hace que la imagen se vea tipo opaca, apenas se ve*/
+}
+
+.imggal img:active{
+    opacity: 1;
+    width: 450px; /* Define el ancho deseado para la imagen */
+    height: auto;}
+
+.galeria li {
+    margin: 30px; /* Añade espacio entre los elementos de la lista */
+}

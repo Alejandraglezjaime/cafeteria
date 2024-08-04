@@ -1,0 +1,64 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none; /*quita la linea de los enlaces*/
+    list-style: none; /*quita las viñetas*/
+}
+
+body{
+    
+    font-family: "Playpen Sans", cursive;
+    background: linear-gradient(#FEFEFE,#FEFEFE,#99e1dc, #0e737838);} 
+
+.encabezado {
+    background-color: #DBF9FC; /* Color de fondo del encabezado */
+    text-align: center; /* Alineación del texto en el centro */
+    padding: 20px; /* Espaciado interno del encabezado */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.fotos {
+    text-align: center; /* Alineación del texto en el centro */
+    color: #DBF9FC;
+}
+
+.fotos h1{
+    font-size: 70px; /* Otra opción para un tamaño más grande */
+}
+
+
+.fotos ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    display: flex; /* Utiliza flexbox para alinear elementos en una fila */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+}
+
+.imggal img {
+    width: 500px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    margin-right: 10px; /* Añade espacio entre la imagen y el texto */
+   
+    object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor manteniendo la proporción */
+}
+
+.fotos li {
+    margin: 30px; /* Añade espacio entre los elementos de la lista */
+}
+
+.paquetes{
+    padding: 20px;
+}
+
+.paquetes h3,h1,h4,p{
+    color: rgb(5, 84, 111);
+}
+
+.sorpresa{
+    color: #DBF9FC;
+}

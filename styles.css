@@ -1,0 +1,128 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none; /*quita la linea de los enlaces*/
+    list-style: none; /*quita las viñetas*/
+}
+
+body{
+    
+    font-family: "Playpen Sans", cursive;
+    background: linear-gradient(#FEFEFE,#FEFEFE,#99e1dc, #0e737838);}
+
+
+/* Estilos para el encabezado */
+.encabezado {
+    background-color: #DBF9FC; /* Color de fondo del encabezado */
+    text-align: center; /* Alineación del texto en el centro */
+    padding: 20px; /* Espaciado interno del encabezado */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.logo{
+     text-align: center; 
+     
+}
+.logo img {
+    width: auto; /* Ancho deseado para la imagen */
+    height: 200px; /* Altura deseada para la imagen */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor manteniendo la proporción */
+}
+
+
+.inicio{
+    text-align: center; /* Alineación del texto en el centro */
+    color: #000000;
+}
+
+.informacion h1{
+    padding: 1em;
+    font-size: 2em;
+    color: #06484ca6;
+}
+
+.informacion p{
+    padding: 1em;
+    font-size: 1em;
+}
+
+.mision{
+    color: #1b1e88e6;
+    font-size: 1em;
+}
+
+.enc a {
+    color: #000000;
+    padding: 5px; /* Añade un poco de espacio alrededor de cada enlace */
+    
+}
+
+
+.cafe{
+    width: 500px;
+}
+.ubi img {
+    width: 100px; /* Ancho deseado para la imagen */
+    height: 100px; /* Altura deseada para la imagen */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    
+}
+
+.nombre h1{
+        font-size: 80px; /* Otra opción para un tamaño más grande */    
+}
+
+
+.redes {
+    text-align: center; /* Alineación del texto en el centro */
+    color: #030505;
+    padding: 3em;
+}
+
+.redes h1{
+    padding: 1em;
+    font-size: 2em;
+    color: #06484ca6;
+}
+
+.redes ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    display: flex; /* Utiliza flexbox para alinear elementos en una fila */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+}
+
+.imgredes img {
+    width: 30px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    margin-right: 10px; /* Añade espacio entre la imagen y el texto */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor manteniendo la proporción */
+}
+
+.redes li {
+    margin: 10px; /* Añade espacio entre los elementos de la lista */
+}
+
+.redes h1 {
+    margin: 0; /* Elimina el margen predeterminado del encabezado */
+}
+
+
+
+@media screen and (max-width:480px){
+    .cafe{
+        width: 100%;
+    }
+    .redes ul{
+        width: 100%;
+    }
+}
+
+
