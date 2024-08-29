@@ -43,8 +43,8 @@ Además de incluir un encabezado de página que permita navegar entre estas secc
 La página cuenta con la ventana de index.html de manera **responsiva**, tiene intenciones de que las demas ventanas sean de iguala forma responsivas.
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="https://github.com/Alejandraglezjaime/cafeteria/blob/master/assets/indexResponsive.png?raw=true" alt="indexResponsive" style="width: 45%;">
-    <img src="https://github.com/Alejandraglezjaime/cafeteria/blob/master/assets/indexResponsive2.png?raw=true" alt="indexResponsive 2" style="width: 45%;">
+    <img src="https://github.com/Alejandraglezjaime/cafeteria/blob/master/assets/indexResponsive.jpg?raw=true" alt="indexResponsive" style="width: 45%;">
+    <img src="https://github.com/Alejandraglezjaime/cafeteria/blob/master/assets/indexResponsive2.jpg?raw=true" alt="indexResponsive 2" style="width: 45%;">
 </div>
 
  # AUTOR
